@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Colab/bear_alert_project/Bear.v1i.yolov7pytorch/train
+val: /content/drive/MyDrive/Colab/bear_alert_project/Bear.v1i.yolov7pytorch/valid
+test: /content/drive/MyDrive/Colab/bear_alert_project/Bear.v1i.yolov7pytorch/test
+
+nc: 1
+names: ['Bear']
+
+roboflow:
+  workspace: bear-s8vh1
+  project: bear-im4km
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bear-s8vh1/bear-im4km/dataset/1
